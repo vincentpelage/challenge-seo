@@ -1,5 +1,5 @@
 <?php
-    $note = 4;
+    $note = 3;
 
     $etoiles = 0;
     $etoiledemi = 0;
@@ -21,6 +21,8 @@
 		<meta charset="utf-8">
 		<title></title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -51,14 +53,14 @@
                     <p>Pharmaco30 vous livre gratuitement ce produit chez vous en moins de 30 minutes !</p>
                 </div>
 
-                <p itemprop="offers" itemscope itemtype="http://schema.org/Offer"> itemprop="price" content="<?php echo $prix ?>"><?php echo $prix ?> <span itemprop="priceCurrency" content="EUR">€</span></p>
+                <p class="prix" itemprop="offers" itemscope itemtype="http://schema.org/Offer" itemprop="price" content="<?php echo $prix ?>"><?php echo $prix ?> <span itemprop="priceCurrency" content="EUR">€</span></p>
                 <form action="#" method="post">
                     <button type="submit" name="button">Acheter</button>
                 </form>
             </div>
         </main>
         <footer>
-            2016 - 2017 c Pharmaco30, une marque du groupe VroumVroum Doliprane
+            2016 - 2017 &copy; <i>Pharmaco30, une marque du groupe VroumVroum Doliprane</i>
         </footer>
 	</body>
 </html>
