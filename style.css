@@ -1,0 +1,70 @@
+body {
+	width: 1200;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+    background-color: #ececec;
+    width: 1200px;
+    margin: 0 auto;
+	padding: 50px;
+}
+
+main {
+	width: 1200px;
+	margin: 0 auto;
+    height: 500px;
+    padding-top: 50px;
+}
+
+h2 {
+	font-size: 37px;
+}
+
+.stock {
+	color: green;
+}
+
+.main-product {
+	width: 400px;
+	float: left;
+}
+
+.etoile {
+	width: 10px;
+}
+
+.info-product {
+	text-align: right;
+    margin-right: 50px;
+}
+
+.info-product-text {
+	text-align: left;
+	padding-left: 680px;
+}
+
+.etoile {
+	display: inline-block;
+}
+
+.la-note {
+	margin-right: 10px;
+}
+
+button {
+    background-color: #17acd0;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 0.5em;
+}
+
+footer {
+	clear: left;
+	text-align: center;
+    background-color: #ececec;
+    width: 1200px;
+    margin: 0 auto;
+	padding: 50px;
+}
